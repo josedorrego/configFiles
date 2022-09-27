@@ -73,8 +73,6 @@ ZSH_THEME="jonathan"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
         fzf 
-        zsh-syntax-highlighting
-        zsh-autosuggestions
         macos
         sudo
         web-search
@@ -121,5 +119,3 @@ alias df='df -h'
 alias du='du -h'
 #alias vi='nvim'
 
-
-export PATH="/Users/jose/Library/Python/3.9/bin:$PATH"
