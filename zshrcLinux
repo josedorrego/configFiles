@@ -118,4 +118,6 @@ alias l='ls -CF'
 alias df='df -h'
 alias du='du -h'
 #alias vi='nvim'
-
+alias t='tree -L 1'
+alias t2='tree -L 2'
+alias log='tail -f'
