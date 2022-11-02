@@ -126,3 +126,5 @@ alias log='tail -f'
 
 
 export PATH="/Users/jose/Library/Python/3.9/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
