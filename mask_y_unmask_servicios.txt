@@ -1,0 +1,3 @@
+#Esto usé para que la thinkpad x220 no se hiberne:
+
+https://en-wiki.ikoula.com/en/Disable_Ubuntu_sleep_mode
