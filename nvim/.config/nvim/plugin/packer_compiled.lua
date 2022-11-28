@@ -74,19 +74,14 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/jose/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
-  },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/jose/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/jose/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/Users/jose/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/home/jose/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
@@ -96,13 +91,18 @@ _G.packer_plugins = {
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/jose/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/jose/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/jose/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/jose/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/jose/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 

@@ -3,10 +3,10 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
 
     -- colorscheme
---    use 'gruvbox-community/gruvbox'
---    use 'Shaturn/neovim-ayu'
---    use 'folke/tokyonight.nvim'
-    use "EdenEast/nightfox.nvim"
+    -- use 'gruvbox-community/gruvbox'
+    -- use 'Shaturn/neovim-ayu'
+    use 'folke/tokyonight.nvim'
+    -- use "EdenEast/nightfox.nvim"
     -- fin colorscheme
     
     -- iconos
