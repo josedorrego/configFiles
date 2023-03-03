@@ -121,3 +121,19 @@ alias vi='nvim'
 alias t='tree -L 1'
 alias t2='tree -L 2'
 alias log='tail -f'
+
+# alias para Bitcoin
+alias btcinfo='bitcoin-cli getwalletinfo | egrep "\"balance\""; bitcoin-cli getnetworkinfo | egrep "\"version\"|connections"; bitcoin-cli getmininginfo | egrep "\"blocks\"|errors"'
+alias btest="bitcoin-cli -testnet"
+alias breg="bitcoin-cli -regtest"
+
+alias btcstart="bitcoind -daemon"
+alias bteststart="bitcoind -testnet -daemon"
+alias bregstart="bitcoind -regtest -daemon"
+
+alias btcstop="bitcoin-cli stop"
+alias bteststop="bitcoin-cli -testnet stop"
+alias bregstop="bitcoin-cli -regtest stop"
+
+alias logbtc="tail -f /home/jose/.bitcoin/debug.log"
+alias logbtest="tail -f /home/jose/.bitcoin/testnet3/debug.log"
