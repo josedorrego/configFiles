@@ -124,6 +124,7 @@ alias log='tail -f'
 
 # alias para Bitcoin
 alias btcinfo='bitcoin-cli getwalletinfo | egrep "\"balance\""; bitcoin-cli getnetworkinfo | egrep "\"version\"|connections"; bitcoin-cli getmininginfo | egrep "\"blocks\"|errors"'
+alias btestinfo='bitcoin-cli -testnet getwalletinfo | egrep "\"balance\""; bitcoin-cli -testnet getnetworkinfo | egrep "\"version\"|connections"; bitcoin-cli -testnet getmininginfo | egrep "\"blocks\"|errors"'
 alias btest="bitcoin-cli -testnet"
 alias breg="bitcoin-cli -regtest"
 
@@ -137,3 +138,10 @@ alias bregstop="bitcoin-cli -regtest stop"
 
 alias logbtc="tail -f /home/jose/.bitcoin/debug.log"
 alias logbtest="tail -f /home/jose/.bitcoin/testnet3/debug.log"
+
+# Agregado por el warning que dió el pip
+export PATH=$PATH:"/home/jose/.local/bin"
+
+# Agregado para el código de nodo de LND
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
