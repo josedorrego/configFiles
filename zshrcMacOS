@@ -116,6 +116,10 @@ alias t='tree -L 1'
 alias t2='tree -L 2'
 alias log='tail -f'
 
+alias btest='bitcoin-cli -testnet '
+alias bregtest='bitcoin-cli -regtest '
+alias bsignet='bitcoin-cli -signet '
+
 
 export PATH="/Users/josei/Library/Python/3.9/bin:$PATH"
 
